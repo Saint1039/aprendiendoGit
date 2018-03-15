@@ -14,12 +14,13 @@ class vista: UIViewController,TransferirTexto {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+//        skdhsjdhsfjksjbkcnkjdhksudhjsdjshruheurnojnksjdnlskdnlaks
 
     }
     
     func transferir(texto: String) {
         inputText.text = texto
-        print("==================================",texto)
+//        print("==================================",texto)
     }
 
     @IBAction func activaScaner(_ sender: Any) {
